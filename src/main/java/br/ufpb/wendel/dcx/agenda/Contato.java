@@ -1,8 +1,9 @@
 package br.ufpb.wendel.dcx.agenda;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Contato {
+public class Contato implements Serializable {
     private String nome;
     private int diaAniversario;
     private int mesAniversario;
